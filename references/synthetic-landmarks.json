@@ -1,0 +1,34 @@
+{
+  "coordinate_convention": "zero_based_pixel_centers",
+  "note": "Synthetic geometry for calculator verification; no patient data.",
+  "measurements": [
+    {
+      "id": "SYN-PERP",
+      "kind": "perpendicular",
+      "pixel_spacing_mm": [2.0, 0.5],
+      "ipp_mm": [10.0, 20.0, 30.0],
+      "iop": [1, 0, 0, 0, 1, 0],
+      "rows": 100,
+      "columns": 100,
+      "line": [[1, 1], [1, 6]],
+      "point": [7, 4]
+    },
+    {
+      "id": "SYN-LENGTH",
+      "kind": "length",
+      "pixel_spacing_mm": [2.0, 0.5],
+      "ipp_mm": [10.0, 20.0, 30.0],
+      "iop": [1, 0, 0, 0, 1, 0],
+      "points": [[0, 0], [6, 2]]
+    },
+    {
+      "id": "SYN-Z",
+      "kind": "patient_axis_projection",
+      "pixel_spacing_mm": [2.0, 0.5],
+      "ipp_mm": [10.0, 20.0, 30.0],
+      "iop": [1, 0, 0, 0, 0, -1],
+      "points": [[0, 0], [6, 2]],
+      "axis": [0, 0, 1]
+    }
+  ]
+}
