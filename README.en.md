@@ -2,7 +2,7 @@
 
 [По-русски](README.md)
 
-`mri-review` helps an AI agent review MRI images and explain a radiologist’s report in plain language. If you have only the written report, the agent works from the radiologist’s wording. When images are available, it can point to the series and frame behind an observation. When you have more than one study, the skill helps the agent compare matching series and record questions that remain open.
+`mri-review` is a skill for an AI agent that explains a radiologist’s report in plain language. The written report alone is enough for that. When reviewing images, the agent can point to the series and frame behind an observation. For scans taken on different dates, it compares matching series and notes questions to discuss with the radiologist.
 
 This is a research prototype. Its clinical accuracy has not been validated. A radiologist should review any medical conclusions drawn from the images.
 
